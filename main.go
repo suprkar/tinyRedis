@@ -25,10 +25,14 @@ func main(){
 			fmt.Println(err)
 			return
 		}
+
+		_=value
+		writer:=NewWriter(conn)
+		writer.Write(Value{typ:"string",str:"OK"})
 		fmt.Println(value)
 
 		//ignore request and send back a PONG
-		conn.Write([]byte("+OK\r\n"))
+		//conn.Write([]byte("+OK\r\n"))
 	}
 
 }
