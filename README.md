@@ -20,3 +20,13 @@ A lightweight Redis clone implemented in Python, supporting basic commands and p
    ```bash
    git clone https://github.com/yourusername/redis-clone.git
    cd redis-clone
+
+2.Ensure all dependencies are installed. This project does not use any external libraries apart from the standard library and the custom resp module provided in the repository.
+
+## Usage
+
+Start the Redis clone server:
+   ```bash
+   python main.py
+   ```
+2.Connect to the server using a Redis client or any TCP client on port 6379.
