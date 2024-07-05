@@ -18,7 +18,7 @@ A lightweight Redis clone implemented in Python, supporting basic commands and p
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/redis-clone.git
+   git clone https://github.com/suprkar/tinyRedis.git
    cd redis-clone
 
 2.Ensure all dependencies are installed. This project does not use any external libraries apart from the standard library and the custom resp module provided in the repository.
